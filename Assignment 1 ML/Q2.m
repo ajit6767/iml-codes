@@ -1,0 +1,11 @@
+clear; 
+close all;
+clc;
+A = [1 2 3];
+B = [7 8 9];
+dot_product = dot(A,B);
+cross_product = cross(A,B);
+disp('A.B = ');
+disp(dot_product);
+disp('AxB = ');
+disp(cross_product);
